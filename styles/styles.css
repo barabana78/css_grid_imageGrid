@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  font-size: 0;
+}
+a {
+  display: block;
+}
+img {
+  max-width: 100%;
+  width: auto;
+}
+.wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+.row {
+  overflow: hidden;
+}
+.cell {
+  float: left;
+  padding: 0 10px;
+}
+.cell.size-50 {/*используем*/
+  width: 50%;
+}
+.cell.size-66 {
+  width: 66.6%;
+}
+.cell.size-33 {/*используем*/
+  width: 33.3%;
+}
+.cell.size-25 {
+  width: 25%;
+}
+.cell.size-20 {
+  width: 20%;
+}
+.cell.size-16 {/*используем*/
+  width: 16.6%;
+}
+.cell.size-8 {
+  width: 8.3%;
+}
+.gatters-bottom {
+  padding-bottom: 20px;
+}
