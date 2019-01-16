@@ -44,3 +44,6 @@ img {
 .gatters-bottom {
   padding-bottom: 20px;
 }
+.padding-none {
+padding: 0;
+}
